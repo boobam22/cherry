@@ -13,4 +13,11 @@
       "database_id": "34e7b6a7-c6f0-4607-9f30-7ade96aa1cc4",
     },
   ],
+  "routes": [
+    {
+      "pattern": "2.3364426.xyz",
+      "custom_domain": true,
+    },
+  ],
+  "workers_dev": false,
 }

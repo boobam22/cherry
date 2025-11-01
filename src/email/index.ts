@@ -4,10 +4,10 @@ import { Obj, Str, Num, Enumeration } from 'chanfana'
 
 const RowSchema = Obj({
   id: Num(),
-  pid: Num().default(1),
+  pid: Num().optional(),
   name: Str().min(3).max(12),
   catalog: Enumeration({ values: ['outlook', 'gmail', 'xyz'], enumCaseSensitive: false }),
-  description: Str().default(''),
+  description: Str().optional(),
 })
 
 function getMeta(fields?: MetaInput['fields']): MetaInput {
