@@ -1,0 +1,10 @@
+{
+  "terminal.integrated.env.linux": {
+    "PATH": "./node_modules/.bin:${env:PATH}"
+  },
+  "files.associations": {
+    "wrangler.json": "jsonc"
+  },
+  "editor.formatOnSave": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode"
+}

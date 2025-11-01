@@ -1,0 +1,16 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "cherry",
+  "main": "src/index.ts",
+  "compatibility_date": "2025-10-31",
+  "observability": {
+    "enabled": true,
+  },
+  "d1_databases": [
+    {
+      "binding": "DB",
+      "database_name": "db0",
+      "database_id": "34e7b6a7-c6f0-4607-9f30-7ade96aa1cc4",
+    },
+  ],
+}

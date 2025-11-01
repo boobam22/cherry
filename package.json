@@ -1,0 +1,20 @@
+{
+  "name": "cherry",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "wrangler dev",
+    "type-check": "tsc --noEmit",
+    "format": "prettier --write src/"
+  },
+  "dependencies": {
+    "chanfana": "2.8.3",
+    "drizzle-orm": "0.44.7",
+    "hono": "4.10.4"
+  },
+  "devDependencies": {
+    "prettier": "3.6.2",
+    "typescript": "5.5.2",
+    "wrangler": "4.45.3"
+  }
+}

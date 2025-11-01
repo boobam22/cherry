@@ -1,0 +1,7 @@
+CREATE TABLE IF NOT EXISTS t_emails (
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    pid INTEGER DEFAULT 1 REFERENCES t_emails(id) ON DELETE SET DEFAULT,
+    name VARCHAR(32),
+    catalog VARCHAR(32),
+    description VARCHAR(255)
+);
